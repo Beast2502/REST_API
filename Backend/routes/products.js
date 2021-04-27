@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const {Product} = require('../modals/product')
+const {Product} = require('../models/product')
 
 router.post(`/`,(req,res)=>{
     const product = new Product({
